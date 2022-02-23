@@ -362,6 +362,24 @@ a:hover {
     z-index: 2;
 }
 
+.text-center {
+
+    p {
+        display: flex;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 12%;
+        padding-right: 12%;
+        justify-content: center;
+    }
+
+    .signature {
+        font-size: 12px;
+    }
+}
+
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
