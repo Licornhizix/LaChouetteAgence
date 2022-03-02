@@ -4,7 +4,7 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
 }
 
 a,
@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+
 }
 
 .navbar {
@@ -371,6 +372,7 @@ a:hover {
         padding-left: 12%;
         padding-right: 12%;
         justify-content: center;
+
     }
 
     .signature {
@@ -801,7 +803,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: red !important;
+    background-color: #000000;
 }
 
 .btn-atomic-tangerine {
