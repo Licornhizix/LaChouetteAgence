@@ -31,12 +31,13 @@ button {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .bloc .container {
@@ -282,6 +283,13 @@ button {
     margin-left: 0;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .row.row-no-gutters>[class^="col-"],
 .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
@@ -385,7 +393,6 @@ button {
         padding-left: 12%;
         padding-right: 12%;
         justify-content: center;
-
     }
 
     .signature {
@@ -690,8 +697,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-    {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important;
@@ -746,6 +752,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
@@ -780,7 +790,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: black !important;
     text-align: center;
 }
 
@@ -825,6 +835,7 @@ h4 {
     border-radius: 20px;
     padding: 2%;
     text-align: center;
+    width: 100%;
 }
 
 .btn-atomic-tangerine {
@@ -1099,6 +1110,8 @@ h4 {
     #form1 {
         display: flex;
         justify-content: center;
+        align-items: center;
+
     }
 
     .close-lightbox {

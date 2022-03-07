@@ -29,12 +29,13 @@ button {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .bloc .container {
@@ -277,6 +278,13 @@ button {
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .row.row-no-gutters > [class^=col-],
@@ -732,6 +740,10 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -766,7 +778,7 @@ h4 {
 }
 
 .white {
-  color: #FFFFFF !important;
+  color: black !important;
   text-align: center;
 }
 
@@ -811,6 +823,7 @@ h4 {
   border-radius: 20px;
   padding: 2%;
   text-align: center;
+  width: 100%;
 }
 
 .btn-atomic-tangerine {
@@ -1080,6 +1093,7 @@ p,
   #form1 {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .close-lightbox {
