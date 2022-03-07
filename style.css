@@ -44,6 +44,10 @@ button {
 
 .bloc-lg {
   padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bloc-md {
@@ -1062,6 +1066,11 @@ p,
 
   form {
     padding: 5px;
+  }
+
+  #form1 {
+    display: flex;
+    justify-content: center;
   }
 
   .close-lightbox {
