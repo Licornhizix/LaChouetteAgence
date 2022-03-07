@@ -136,7 +136,7 @@ button {
 .d-bloc h5,
 .d-bloc h6,
 .d-bloc p {
-  color: rgba(255, 255, 255, 0.6);
+  color: black !important;
 }
 
 .d-bloc .-btn:hover,
