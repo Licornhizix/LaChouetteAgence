@@ -300,6 +300,13 @@ button {
   flex-direction: column;
 }
 
+.col-xs-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #bloc-1-hero h1 {
   font-size: 32px;
 }
@@ -386,6 +393,7 @@ button {
   padding-left: 12%;
   padding-right: 12%;
   justify-content: center;
+  align-items: center;
 }
 .text-center .signature {
   font-size: 12px;
