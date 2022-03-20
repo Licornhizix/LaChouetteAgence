@@ -568,7 +568,6 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     text-align: center;
-    width: 500px;
 }
 
 .scrollToTop {
@@ -716,6 +715,10 @@ label,
 
 .container {
     max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hero-bloc-text {
@@ -1077,6 +1080,8 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .bloc-sm,
@@ -1122,7 +1127,6 @@ h4 {
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .close-lightbox {
@@ -1140,6 +1144,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
