@@ -359,7 +359,7 @@ button {
     font-size: 16px;
 }
 
-.navbar-nav .open .dropdown-menu>li> {
+.navbar-nav .open .dropdown-menu>li {
     text-align: inherit;
 }
 
@@ -815,6 +815,8 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .avatar {
@@ -924,13 +926,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
