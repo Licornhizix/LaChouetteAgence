@@ -804,6 +804,7 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .avatar {
@@ -1121,6 +1122,14 @@ p,
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+
+  .portfolio-row {
+    margin-bottom: 44px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 400px) {
